@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/dd.jpg");
+    background-size: cover;
+    text-align: center;
+    border-top: 0.6rem solid #4e82be;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.headings{
+    margin-top: 8rem;
+}
+
+.headings h1{
+    color: #fff;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.headings h6{
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/* Info Section */
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info section{
+    width: 30%;
+    padding:1.25rem;
+}
+
+.info section h2{
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    color: #4e82be;
+}
+
+.info section p{
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    line-height: 1.8rem;
+    color: gray;
+}
+
+.more{
+    width: 100px;
+    height: 45px;
+    background-color: #4e82be;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+}
+
+.hr{
+    width: 0.5px;
+    height: 0.5px;
+    border: none;    
+    background-color: grey;
+}
+
+/*Testimonail Started */
+
+.testimonial-wrapper{
+    width: 100%;
+    background-color: #4e82be;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-wrapper h2{
+    font-size: 2rem;
+    font-weight:200;
+    margin-bottom: 1rem;
+}
+
+.testimonial-wrapper p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.testimonial{
+    width: 22%;
+    border: 1px solid #a0c2e8;
+    padding: 4rem 0;
+}
+
+.testimonial img{
+    border-radius: 100%;
+    width: 60%;
+}
+
+.testimonial h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial h5{
+    font-size:1.1rem;
+    font-weight: 200;
+}
+
+/*Image-Gallery Started */
+
+.image-gallery h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight:100;
+    color: #4e82be;
+}
+
+.image-gallery h5{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.left{
+    width: 47%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.left h3{
+    margin: 2rem 0;
+    line-height: 1.5rem;
+    color: gray;
+}
+
+.left p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    color: gray;
+}
+
+/* Footer Started Here */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-hr{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 3rem;
+}
+
+footer p{
+    color: gray;
+}
+
+.socialmedia span{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    color: #4e82be;
+}
+
+
+@media only screen and (max-width:600px){
+    .info section{
+        width: 100%;
+    }
+
+    .hr{
+        width: 100%;
+        height: 0.5px ;
+        border: none;    
+        background-color: grey;
+    }
+    
+
+    .testimonial{
+        width: 100%;
+        margin-top: 10px;
+        padding: 2rem 0rem;
+    }
+
+    .left{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    footer p{
+        width: 100%;
+        font-size: 0.6rem;
+    }
+
+    .socialmedia span{
+        font-size: 1rem;
+        padding: 0 0.3rem;
+        color: #4e82be;
+    }
+    
+}
